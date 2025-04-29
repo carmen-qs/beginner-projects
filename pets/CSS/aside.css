@@ -1,0 +1,56 @@
+.info .aside {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 15px 0px;
+    
+    
+}
+
+.info .aside h2 {
+    background-color: var(--dark-primary-color);
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.info .aside form {
+    background-color: var(--primary-color);
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+
+}
+
+.info .aside form p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+
+}
+
+.info .aside form p input {
+    border: none;
+    background-color: var(--light-primary-color);
+    border-radius: 25px;
+    padding: 5px;
+    outline: none;
+    text-align: center;
+
+}
+
+.info .aside form .btn input {
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 15px 0px 0px  0px;
+}
+
+.info .aside form .btn input:hover {
+    background: var(--dark-primary-color);
+    color: var(--primary-text);
+}

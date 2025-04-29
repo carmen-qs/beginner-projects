@@ -1,0 +1,76 @@
+aside {
+    float: left;
+    background-color: #fff;
+    margin-top: 40px;
+    width: 300px;
+    border: 1px solid var(--gray-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+aside h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-top: 1px solid var(--gray-color-dark);
+    border-bottom: 1px solid var(--gray-color-dark);
+
+}
+
+.widget {
+    margin-bottom: 60PX;
+}
+
+.widget form input[type="email"], .widget form input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.widget form input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: var(--primary-color-dark);
+    color: #fff;
+    border: none;
+    transition: all 0.5s;
+}
+
+.widget form input[type="submit"]:hover {
+    background-color: #235372;
+    cursor: pointer;
+}
+
+.widget ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.widget ul li {
+    margin: 15px 0;
+
+}
+
+.widget ul li a {
+    color: var(--primary-color-dark);
+}
+
+.widget blockquote {
+    margin: 0;
+    color: var(--gray-color-dark);
+    font-style: italic;
+}
+
+@media screen and (max-width:700px){
+    aside {
+        width: 100%;
+    }
+    
+}

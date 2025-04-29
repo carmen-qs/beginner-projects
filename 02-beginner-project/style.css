@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(39, 34, 34);
+    background-image: url("flowers-8529977_960_720-removebg-preview.png");
+    background-size:  700px 800px;
+    background-repeat: no-repeat;
+    background-position:  top ; /* Mueve la imagen 20% hacia abajo */
+}
+
+.header {
+    background-color: #450447;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 10px #450447;  ;
+    
+
+}
+
+.navigation__list  {
+    display: flex;
+    gap: 3em;
+    font-size: 1.5em;
+}
+
+.navigation__list li {
+    list-style: none;
+
+}
+
+.navigation__list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Patua One";
+}
+
+.navigation__list a:hover {
+    background-color: #171515;
+    color: #938f8f;
+    padding: 0.4em  1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: 10px solid purple;
+    
+}
+
+.header img:first-child {
+    margin-left: 2em;
+}
+
+.header img:last-child {
+    margin-right: 2em;
+}
+
+h1 {
+    /* background-color: aqua; */
+    text-align: center;
+    color: rgb(7, 7, 6);
+    font-size: 5em;
+    font-family: "Patua One";
+    transition: 3s;
+    margin-top: 0;
+    text-shadow: 10px 10px 20px  #720b58;
+    /* transform: translate(5px); */
+}
+
+main > p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0px 1em;
+    color: wheat;
+    font-family: "Patua One";
+
+}
+
+

@@ -1,0 +1,23 @@
+footer {
+    float: left;
+    width: 100%;
+    background-color: #151414;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: var(--gray-color);
+}
+
+footer div {
+    margin-bottom: 10px;
+}

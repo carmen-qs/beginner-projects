@@ -1,0 +1,19 @@
+@import "colors.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+@import "content.css";
+@import "footer.css";
+
+
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+    
+}
+
+
+

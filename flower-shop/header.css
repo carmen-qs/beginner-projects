@@ -1,0 +1,32 @@
+header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(img/flowersWhite.jpg);
+    background-size: cover; /* Hace que la imagen cubra el espacio sin deformarse */
+    background-position: center; /* Centra la imagen para que se vea mejor */
+    background-repeat: no-repeat;
+    
+}
+
+header div {
+    background-color: #504f51;
+    padding: 10px;
+    opacity: .7;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin:  0 0 20px;
+    text-shadow: 10px 5px 20px rgb(5, 232, 220);
+}
+
+header p {
+    margin:  0 0 10px;
+}
+
+header div img {
+    width: 20%;
+}

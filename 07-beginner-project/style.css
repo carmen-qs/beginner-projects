@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 3em;
+    text-shadow: 0px 2px 20px #1baecc;
+    font-weight: bold;
+    word-spacing: 15px;
+    font-style: italic;
+}
+
+.container {
+    position: fixed;
+
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+    /* background-color: rgb(255, 162, 0); */
+    /* background-color: #dfc81a; */
+
+    
+}
+
+.menu img {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+
+}
+
+ul,  .navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    align-items: center;
+    list-style-type: none;
+    gap: 5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    color: #fff;
+    
+}
+
+.navbar a:hover {
+    color: #1abbdf;
+    background-color: #120c01;
+
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 2rem;
+    /* background-color: #404ecf; */
+
+}
+
+.container-logo p {
+    font-family: "Satisfy";
+    font-size: 2rem;
+    font-style: italic;
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 10px  #404ecf;
+    /* background-color: rgb(0, 213, 255); */
+}
+
+.header-content {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    height: 80%;
+    width: 60%;
+    /* background-color: #dfc81a; */
+} 
+
+
+.header-content-div {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+}
+
+.header-content-div p {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0px 0px 10px #e6ecf1;
+}
+
+.header-content-div a {
+    /* text-align: center; */
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #120c01;
+    padding: 10px 10px;
+    width: 30%;
+    /* margin-left: 15em;
+    margin-right:15em; */
+    border-radius: 10px;
+    color: #e6ecf1;
+}
+
+.header-content-div a:hover {
+    color: #1abbdf;
+    font-weight: bold;
+}
+
+
+.header {
+    background-image: url("pictures/mike-kenneally-zlwDJoKTuA8-unsplash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    /* width: 100%; */
+    /* position: relative; */
+    height: 85vh;
+}
+
+.header::before {
+    background-color: rgb(121, 13, 194);
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.container {
+    z-index: 3;
+    position: relative;
+}
+
+.coffee {
+    display: grid;
+    grid-template-rows: repeat(1fr, 3);
+    grid-template-columns: 1fr 1fr;
+    background-color: #1abbdf;
+}
+
+.barra {
+    background-color: #ce0ee3;
+    box-shadow: 0px 0px 20px 1px purple;
+    opacity: 0.67;
+    min-height: 3em;
+    width: 100%;
+    height: 4em;
+}
+
+.box {
+    background-color: #404ecf;
+    /* border: 3px solid purple; */
+    min-height: 500px; 
+}
+
+.box-fondo {
+    background-image: url("pictures/pexels-thought-catalog-317580-904616.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+
+
+

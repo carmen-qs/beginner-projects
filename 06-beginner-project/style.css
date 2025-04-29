@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    --form-text-color: #333;
+    --form-success-color:#4caf50;
+    --form-error-color: #f44336;
+    --form-bg-color: #ddd;
+    --form-bg-color-2: #eee;
+    --form-border-color: #222;
+
+
+    border: 3px solid #222;
+    width: 80%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    background-color: var(--form-bg-color-2);
+    border-radius: 1rem;
+    
+}
+
+.form-container > * {
+    font-size: 1rem;
+    padding: .5rem;
+    color: var(--form-text-color);
+    border-radius: 7px;
+
+}
+
+.form-container > *::placeholder {
+    color: #219f9f;
+}
+
+.form-container >*:invalid {
+    border: 2px solid var(--form-error-color);
+}
+
+.form-container >*:valid {
+    border: 2px solid var(--form-success-color);
+}
+
+.form-container input[type="submit"] {
+    width: 30%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+    background-color: #219f9f;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.form-container input[type="submit"]:hover {
+    cursor: pointer;
+    opacity: 0.75;
+
+}
+.form-container textarea {
+    resize: none;
+}

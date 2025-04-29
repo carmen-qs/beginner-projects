@@ -1,0 +1,17 @@
+@import "common.css";
+@import "content.css";
+
+
+@media screen and (max-width: 700px) {
+    
+    .container {
+        flex-direction: column;
+        /* background-color: black; */
+        height: 100%;
+    }
+
+    
+
+    
+    
+}

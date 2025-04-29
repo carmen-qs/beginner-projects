@@ -1,0 +1,52 @@
+.container {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 2rem;
+}
+
+.titles {
+    text-align: center;
+    
+}
+
+.titles .title-1 {
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 7px #0fa9c1;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s;
+    margin-bottom: 0;
+    
+}
+
+
+.titles .title-2 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+legend {
+    font-size:2rem ;
+    letter-spacing: 2px;
+}
+
+.fieldset {
+    /* padding-left: 100px; */
+    /* border: #acc10f; */
+    text-align: center;
+    
+    border: 1px solid #2c9edc;
+    box-shadow: 4px 4px 10px #24acbd4d;
+}
+
+.fieldset #reloj {
+    font-size: 5rem;
+    letter-spacing: 8px;
+    margin: 0;
+    
+}

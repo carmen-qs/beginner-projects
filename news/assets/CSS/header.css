@@ -1,0 +1,23 @@
+header {
+    float: left;
+    width: 100%;
+    text-align: center;
+    /* background-color: #00ffff; */
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin: 20px 0px;
+}
+
+header img {
+    height: 4rem;
+    width: auto;
+    filter: drop-shadow(2px 2px 5px #ab5aa2);
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 5px #ccc;
+    color: var(--primary-color-dark);
+
+}

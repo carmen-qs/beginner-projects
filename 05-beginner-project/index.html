@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--THIS IS A FAVIKON-->
+    <link rel="icon" href="descarga.jpg" type="image/png">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!--This is a comentary. IMPORTANT-->
+    <form >
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <fieldset>
+            <legend>Información Básica</legend>
+            <div class="form_input">
+                <label for="name">NOMBRES COMPLETOS</label>
+                <input type="text" placeholder="Nombre Completo" id="name">
+            </div>
+            <div class="form_input">
+                <label for="correo">EMAIL
+                <input type="email" placeholder="email" id="correo"></label>
+            </div>
+            <!--SELECT & OPTION-->
+            <div class="form_input">
+                <label for="option">TIPO DE USUARIO</label>
+                <select name="type-of-user" id="option">
+                    <option value="user1">Seguidor/a</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Otros
+
+                    </option>
+                </select>
+            </div>
+        </fieldset>
+    
+        <!--datalist & option-->
+        <fieldset>
+            <legend>Más Información</legend>
+            <div class="form_input">
+                <label >REFERENTE
+                <input list="referente" name="referente">
+                <datalist id="referente" name="type-of-user">
+                    <option value="user1">Familiares</option>
+                    <option value="user2">Compañeros</option>
+                    <option value="user3">Amigos</option>
+                </datalist>
+                </label>
+
+            </div>
+            <!--TEXTAREA-->
+            <div class="form_input">
+                <label for="mensaje">COMENTARIO</label>
+                <textarea  placeholder="Deja tu mensaje o comentario" rows="8" id="mensaje"></textarea>
+            </div>
+        </fieldset>
+            <div>
+                <label for="condiciones" class="form_div_condiciones" >Acepto todos los <a href="document.html"> términos y condiciones.</a>
+                </label>
+                <input type="checkbox" class="checkbox" id="condiciones">
+            </div>
+            <div>
+                <button>ENVIAR</button>
+            </div>
+        
+    </form>
+</body>
+</html>
